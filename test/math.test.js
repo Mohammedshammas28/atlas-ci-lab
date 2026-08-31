@@ -11,6 +11,8 @@ test('isEven detects even numbers', () => {
   assert.strictEqual(isEven(7), false);
 });
 
+
 test('formatName joins first and last', () => {
   assert.strictEqual(formatName('Ada', 'Lovelace'), 'Ada Lovelace');
 });
+
